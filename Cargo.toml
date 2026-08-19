@@ -1,0 +1,11 @@
+[package]
+name = "allwinner_emu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+unicorn-engine = "2.0.1"
+capstone = "0.11"
+object = "0.32"
+ctrlc = "3.4"
+sfml = "0.21.0"
